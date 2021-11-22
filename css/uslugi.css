@@ -1,0 +1,628 @@
+
+.first-container .first-container-content .uslugi-button{
+    text-align: center;
+    margin-top: 44px;
+    padding-bottom: 80px;
+}
+
+.first-container .first-container-content .uslugi-button a{
+    display: inline-block;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 15px 76px;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.first-container .first-container-content .uslugi-button a:hover{
+    background-color: #FFFFFF;
+    color: #545A2F;
+    cursor: pointer;
+}
+
+.uslugi-content .uslugi-block{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* Section Uslugi Content */
+
+.uslugi-content .uslugi-block .left-content{
+    width: 580px;
+}
+
+.uslugi-content .uslugi-block .left-content h3{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #1A1A18;
+    margin-top: 37px;
+    margin-bottom: 56px;
+}
+
+.uslugi-content .uslugi-block .left-content .uslugi-block-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 93px;
+}
+
+.uslugi-content .uslugi-block .left-content .uslugi-block-btn a{
+    display: inline-block;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1A18;
+    text-decoration: none;
+    padding: 15px 95px;
+    border: 1px solid #545A2F;
+    transition: 0.5s;
+}
+
+.uslugi-content .uslugi-block .left-content .uslugi-block-btn a:hover{
+    background-color: #545A2F;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor: pointer; 
+}
+
+.uslugi-content .uslugi-block .right-content{
+    width: 673px;
+}
+
+.uslugi-content .uslugi-block .right-content img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.uslugi-content .uslugi-block{
+    display: flex;
+    justify-content: space-between;
+}
+.uslugi-content .uslugi-block .right-content .mobile-button{
+    display: none;
+}
+
+.uslugi-content .uslugi-block-wrap .right-content{
+    order: -1;
+}
+
+
+/* Section Contacts */
+
+.contacts .contacts-content{
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 177px;
+}
+
+.contacts .contacts-content .content-left{
+    width: 513px;
+    /*margin-top: 237px;
+    margin-bottom: 40px;*/
+}
+
+.contacts .contacts-content .content-left h4{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1A1A18;
+    margin-bottom: 40px;
+}
+
+.contacts .contacts-content .content-left .address,
+.contacts .contacts-content .content-left .tel,
+.contacts .contacts-content .content-left .mail
+{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+}
+
+.contacts .contacts-content .content-left .address{
+    margin-bottom: 20px;
+}
+
+.contacts .contacts-content .content-left .tel{
+    margin-bottom: 14px;
+}
+
+.contacts .contacts-content .content-left .mail{
+    margin-bottom: 33px;
+}
+
+.contacts .contacts-content .content-left .tel a{
+    text-decoration: none;
+    color: #1A1A18;
+}
+
+.contacts .contacts-content .content-left .mail a{
+    text-decoration: none;
+    color: #1A1A18;
+}
+
+.contacts .contacts-content .content-right{
+    width: 660px;
+}
+
+.contacts .contacts-content .content-right .title-right{
+    display: none;
+}
+
+.contacts .contacts-content .content-right .form-email .form-name,
+.contacts .contacts-content .content-right .form-email .email,
+.contacts .contacts-content .content-right .form-email .tel,
+.contacts .contacts-content .content-right .form-email .feedback{
+    width: 100%;
+    text-align: right;
+}
+
+.contacts .contacts-content .content-right .form-email .form-name input,
+.contacts .contacts-content .content-right .form-email .email input,
+.contacts .contacts-content .content-right .form-email .tel input{
+    width: 100%;
+    height: 50px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    border: none;
+    border: 0.7px solid #99A18E; 
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 23px;
+}
+
+.contacts .contacts-content .content-right .form-email .feedback textarea{
+    width: 100%;
+    height: 124px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    border: none;
+    border: 0.7px solid #99A18E;
+    box-sizing: border-box;
+    padding: 0;
+    padding-left: 23px;
+    padding-top: 11px;
+}
+
+.contacts .contacts-content .content-right .form-email .form-name input::-webkit-input-placeholder,
+.contacts .contacts-content .content-right .form-email .email input::-webkit-input-placeholder,
+.contacts .contacts-content .content-right .form-email .tel input::-webkit-input-placeholder,
+.contacts .contacts-content .content-right .form-email .feedback textarea::-webkit-input-placeholder{
+	font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+}
+
+.contacts .contacts-content .content-right .form-email .form-name input::-moz-placeholder,
+.contacts .contacts-content .content-right .form-email .email input::-moz-placeholder,
+.contacts .contacts-content .content-right .form-email .tel input::-moz-placeholder, 
+.contacts .contacts-content .content-right .form-email .feedback textarea::-moz-placeholder{
+    font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+}   
+
+/* Firefox 19+ */
+.contacts .contacts-content .content-right .form-email .form-name input:-moz-placeholder,
+.contacts .contacts-content .content-right .form-email .mail input:-moz-placeholder,
+.contacts .contacts-content .content-right .form-email .tel input:-moz-placeholder,
+.contacts .contacts-content .content-right .form-email .feedback textarea:-moz-placeholder{
+	font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+} 
+
+/* Firefox 18- */
+.contacts .contacts-content .content-right .form-email .form-name input:-ms-input-placeholder,
+.contacts .contacts-content .content-right .form-email .email input:-ms-input-placeholder,
+.contacts .contacts-content .content-right .form-email .tel input:-ms-input-placeholder,
+.contacts .contacts-content .content-right .form-email .feedback textarea:-ms-input-placeholder{
+	font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+} 
+
+.contacts .contacts-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-name,
+.contacts .contacts-content .content-right .form-email form .email,
+.contacts .contacts-content .content-right .form-email form .tel,
+.contacts .contacts-content .content-right .form-email form .feedback{
+    margin-bottom: 24px;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-btn{
+    text-align: right;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-btn input{
+    display: inline-block;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 102px 15px 98px;
+    background-color: #545A2F;
+    margin-top: 40px;
+    transition: 0.5s;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-btn input:hover{
+    color: #545A2F;
+    background-color: #FFFFFF;
+    border: solid 1px #545A2F;
+    cursor: pointer;
+   
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group{
+    display: block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 44px;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group label .checkmark {
+    position: absolute;
+    left: 0;
+    top: -4px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #99A18E;
+    cursor: pointer;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group .checkmark:after {
+    left: 5px;
+    width: 10px;
+    height: 15px;
+    border: solid #545A2F;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group .label-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A18;
+}
+
+.contacts .contacts-content .content-right .form-email form .form-email-checkbox-group .label-descr span{
+    color: #545A2F;
+}
+
+
+@media screen and (max-width: 1500px){
+    .center{
+        width: 90%;
+    }
+    .uslugi-content .uslugi-block .left-content{
+        width: 44%;
+    }
+    .uslugi-content .uslugi-block .right-content{
+        width: 51%;
+    }
+    .contacts .contacts-content{
+        width: 90%;
+    }
+    .contacts .contacts-content .content-left{
+        width: 42%;
+    }
+    .contacts .contacts-content .content-right{
+        width: 54%;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .uslugi-content .uslugi-block .left-content h3{
+        font-size: 50px;
+        line-height: 66px;
+        margin-top: 0;
+        margin-bottom: 26px;
+    }
+    .uslugi-content .uslugi-block .left-content .uslugi-block-descr{
+        margin-bottom: 27px;
+    }
+    .contacts .contacts-content{
+        margin-bottom: 160px;
+    }
+    .contacts .contacts-content .content-left h4{
+        font-size: 38px;
+        line-height: 54px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .uslugi-content .uslugi-block .left-content h3{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .uslugi-content .uslugi-block .left-content .uslugi-block-descr{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .uslugi-content .uslugi-block{
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+    .contacts .contacts-content{
+        margin-bottom: 110px;
+    }
+    .contacts .contacts-content .content-left h4{
+        font-size: 32px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .uslugi-content .uslugi-block .left-content h3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .center{
+        width: 100%;
+    }
+    .uslugi-content .uslugi-block{
+        flex-wrap: wrap;
+        margin-bottom: 99px;
+    }
+    .uslugi-content .uslugi-block .left-content{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 36px;
+    }
+    .uslugi-content .uslugi-block .right-content{
+        width: 100%;
+    }
+    .uslugi-content .uslugi-block .left-content .uslugi-block-btn{
+        display: none;
+    }
+    .uslugi-content .uslugi-block .right-content .mobile-button{
+        display: block;
+        text-align: center;
+        margin-top: 27px;
+    }
+    .uslugi-content .uslugi-block .right-content .mobile-button a{
+        display: inline-block;
+        font-family: Noah;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 30px;
+        color: #1A1A18;
+        text-decoration: none;
+        padding: 15px 95px;
+        border: 1px solid #545A2F;
+        transition: 0.5s;
+    }
+    .uslugi-content .uslugi-block .right-content .mobile-button a:hover{
+        background-color: #545A2F;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        cursor: pointer; 
+    }
+    .uslugi-content .uslugi-block-wrap .right-content{
+        order: 1;
+    }
+    .contacts .contacts-content{
+        flex-wrap: wrap;
+    }
+    .contacts .contacts-content .content-left{
+        display: none;
+    }
+    .contacts .contacts-content .content-right{
+        width: 100%;
+        text-align: center;
+    }
+    .contacts .contacts-content .content-right .title-right{
+        display: inline-block;
+        font-size: 40px;
+        line-height: 50px;
+        width: 90%;
+        margin-bottom: 53px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .uslugi-content .uslugi-block .left-content h3{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .contacts .contacts-content .content-right .title-right{
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .first-container .header-uslugi{
+        margin-bottom: 85px;
+    }
+    .first-container .first-container-content .uslugi-button{
+        margin-top: 47px;
+        padding-bottom: 12px;
+    }
+    .first-container .first-container-content .uslugi-button a{
+        width: 95%;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .uslugi-content .uslugi-block{
+        margin-top: 99px;
+        margin-bottom: 36px;
+    }
+    
+    .uslugi-content .uslugi-block .left-content h3{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .uslugi-content .uslugi-block .left-content .uslugi-block-descr{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .uslugi-content .uslugi-block .right-content .mobile-button a{
+        width: 95%;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .uslugi-content .uslugi-block-wrap .right-content .mobile-button a{
+        width: 95%;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .contacts .contacts-content{
+        width: 95%;
+        margin-bottom: 93px;
+    }
+    .contacts .contacts-content .content-right .title-right{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .contacts .contacts-content .content-right .form-email .form-name input,
+    .contacts .contacts-content .content-right .form-email .email input,
+    .contacts .contacts-content .content-right .form-email .tel input{
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 10px;
+    }
+    .contacts .contacts-content .content-right .form-email .feedback textarea{
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 10px;
+    }
+    .contacts .contacts-content .content-right .form-email .form-name input::-webkit-input-placeholder,
+    .contacts .contacts-content .content-right .form-email .email input::-webkit-input-placeholder,
+    .contacts .contacts-content .content-right .form-email .tel input::-webkit-input-placeholder,
+    .contacts .contacts-content .content-right .form-email .feedback textarea::-webkit-input-placeholder{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .contacts .contacts-content .content-right .form-email .form-name input::-moz-placeholder,
+    .contacts .contacts-content .content-right .form-email .email input::-moz-placeholder,
+    .contacts .contacts-content .content-right .form-email .tel input::-moz-placeholder, 
+    .contacts .contacts-content .content-right .form-email .feedback textarea::-moz-placeholder{
+        font-size: 18px;
+        line-height: 22px;
+    }   
+
+    /* Firefox 19+ */
+    .contacts .contacts-content .content-right .form-email .form-name input:-moz-placeholder,
+    .contacts .contacts-content .content-right .form-email .mail input:-moz-placeholder,
+    .contacts .contacts-content .content-right .form-email .tel input:-moz-placeholder,
+    .contacts .contacts-content .content-right .form-email .feedback textarea:-moz-placeholder{
+	font-size: 18px;
+    line-height: 22px;
+    }
+
+    /* Firefox 18- */
+    .contacts .contacts-content .content-right .form-email .form-name input:-ms-input-placeholder,
+    .contacts .contacts-content .content-right .form-email .email input:-ms-input-placeholder,
+    .contacts .contacts-content .content-right .form-email .tel input:-ms-input-placeholder,
+    .contacts .contacts-content .content-right .form-email .feedback textarea:-ms-input-placeholder{
+	    font-size: 18px;
+        line-height: 22px;
+    }  
+    .contacts .contacts-content .content-right .form-email form .form-name,
+    .contacts .contacts-content .content-right .form-email form .email,
+    .contacts .contacts-content .content-right .form-email form .tel{
+        margin-bottom: 10px;
+    }
+    .contacts .contacts-content .content-right .form-email form .feedback{
+        margin-bottom: 14px;
+    }
+    .contacts .contacts-content .content-right .form-email form .form-email-checkbox-group .label-descr{
+        font-size: 14px;
+        line-height: 18px;
+        text-align: left;
+    }
+    .contacts .contacts-content .content-right .form-email form .form-email-checkbox-group{
+        padding-right: 24px;
+    }
+    .contacts .contacts-content .content-right .form-email form .form-btn input{
+        width: 100%;
+        margin-top: 24px;
+    }
+}

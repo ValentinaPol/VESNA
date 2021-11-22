@@ -1,0 +1,2001 @@
+
+.first-container{
+    background: url("../images/bg-element.png"); 
+    /*height: 950px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-container .first-container-sub{
+    background: 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.5) 5.85%, rgba(134, 134, 134, 0) 61.53%), 
+    linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+.first-container .first-container-sub .background-brunch{
+    background: url("../images/head-brunch.png"); 
+    background-repeat: no-repeat;
+    background-position: 100% 293px;
+}
+
+.first-container .first-container-sub .first-container-content .name-studio{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 124px;
+    margin-bottom: 12px;
+}
+
+.first-container .first-container-sub .first-container-content h1{
+    width: 959px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 87px;
+    color: #FFFFFF; 
+    margin-bottom: 12px;
+}
+
+.first-container .first-container-sub .first-container-content .idea{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-bottom: 234px;
+}
+
+.first-container .first-container-sub .last-project img{
+    width: 430px;
+    transition: 0.5s;
+}
+
+.first-container .first-container-sub .last-project img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*Section 2*/
+
+.second-container{
+    background-image: url("../images/element-left.png");
+    background-repeat: no-repeat;
+    background-position-y: 424px;
+}
+
+.second-container .second-container-sub{
+    background-image: url("../images/element-right.png");
+    background-repeat: no-repeat;
+    background-position: 100% 405px;
+}
+
+.second-container .second-container-sub .second-container-content .first-part{
+    width: 950px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: #1A1A18;
+    padding-top: 211px;
+    margin-bottom: 53px;
+}
+
+.second-container .second-container-sub .second-container-content .first-part strong{
+    font-weight: bold;
+}
+
+.second-container .second-container-sub .second-container-content .second-part{
+    /*width: 856px;*/
+    width: 660px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    color: #000000;
+    padding-bottom: 196px;
+}
+
+.second-container .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 196px;
+}
+
+.second-container .cards .item{
+    width: 579px; 
+}
+
+.second-container .cards .item img{
+    width: 100%;
+    max-width: 100%; 
+}
+
+/* Section 3 */
+
+.third-container .vizual-content{
+    background-image: url("../images/vizual-bg.png");
+    background-repeat: no-repeat;
+   background-position: 48% 121px;
+}
+
+.third-container .vizual-content .first-part{
+    width: 980px;
+    margin: 0 auto;
+    font-family:"Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #1A1A18;
+    text-align: center;
+    margin-bottom: 86px;
+}
+
+.third-container .vizual-content .first-part strong{
+    font-weight: bold;
+}
+
+.third-container .vizual-content .content-descr .left-side .left-side-content .item-name{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #1A1A18;
+    margin-left: 183px;
+    margin-bottom: 14px;
+}
+
+.third-container .vizual-content .content-descr .left-side .left-side-content .cards .item1{
+    width: 701px;
+    padding-left: 87px;
+}
+
+.third-container .vizual-content .content-descr .left-side .left-side-content .cards .item1 img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.third-container .vizual-content .content-descr .left-side .left-side-content .cards .item2{
+    width: 536px;
+    position: relative;
+    top: -57px;
+    left: 240px;
+}
+
+.third-container .vizual-content .content-descr .left-side .left-side-content .cards .item2 img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.third-container .vizual-content .content-descr .left-side{
+    width: 788px;
+}
+.third-container .vizual-content .content-descr .left-side .left-side-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.third-container .vizual-content .content-descr .right-side .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 670px;
+}
+
+.third-container .vizual-content .content-descr .right-side .item .item-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.third-container .vizual-content .content-descr .right-side .item .item-icon img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.third-container .vizual-content .content-descr .right-side .item .right-side-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    width: 582px;
+    /*padding-left: 35px;*/
+}
+
+.third-container .vizual-content .content-descr .right-side{
+    width: 892px;
+    padding-top: 113px;
+}
+
+.third-container .vizual-content .content-descr .right-side .item:first-child{
+    margin-left: 28px;
+    padding-bottom: 156px;
+}
+
+.third-container .vizual-content .content-descr .right-side .item:nth-child(2){
+    margin-left: 78px;
+    padding-bottom: 161px;
+}
+
+.third-container .vizual-content .content-descr .right-side .item:last-child{
+    margin-left: 117px;
+}
+
+.third-container .vizual-content .content-descr{
+    display: flex;
+    width: 100%;
+}
+
+/* Section 4 */
+
+/* Works Content*/
+
+
+.fourth-container{
+    background-image: url("../images/fourth-bg.png");
+    background-repeat: no-repeat;
+    background-position-y: 780px;
+}
+
+.fourth-container .fourth-container-sub{
+    background-image: url("../images/fourth-bg2.png");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 1017px;
+}
+
+.fourth-container .works-content{
+    margin-top: 195px;
+}
+
+.fourth-container .works-content .first-line{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    text-align: center;     
+    color: #1A1A18;
+    margin-bottom: 64px;
+}
+
+.fourth-container .works-content .works-descr .item{
+    width: 399px; 
+}
+
+.fourth-container .works-content .works-descr .item .item-icon{
+    width: 81px;
+    height: 81px;
+}
+
+.fourth-container .works-content .works-descr .item .item-icon img{
+    margin-bottom: 11px; 
+    width: 100%;
+    max-width: 100%;
+}
+
+.fourth-container .works-content .works-descr .item .offers{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 47px;
+    color: #1A1A18;
+    margin-bottom: 56px;
+}
+
+.fourth-container .works-content .works-descr .item ul{
+    padding-left: 22px;
+
+}
+
+.fourth-container .works-content .works-descr .item ul li{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    padding-bottom: 49px;
+    list-style-type: disc;
+}
+
+.fourth-container .works-content .works-descr{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-container .works-content .works-button{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 29px;
+}
+
+.fourth-container .works-content .works-button .btn-choose{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF; 
+    padding: 15px 77px 15px 73px;
+    background-color: #545A2F;
+    transition: 0.5s;
+}
+
+.fourth-container .works-content .works-button .btn-choose:hover{
+    color: #545A2F;
+    background-color: #FFFFFF;
+    border: solid 1px #545A2F;
+    cursor: pointer; 
+}
+
+/* Section Projects */
+
+.projects .content .first-line{
+    margin-bottom: 68px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #1A1A18;
+    text-align: center;
+}
+
+.projects .content .cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.projects .content .cards .item{
+    width: 893px;
+    position: relative;
+}
+
+.projects .content .cards .item:first-child{
+    margin-bottom: 4px;
+}
+
+.projects .content .cards .item:nth-child(2){
+    margin-bottom: 4px;
+}
+
+.projects .content .cards .item img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.projects .content .cards .btn-all-project{
+    width: 191px;
+    height: 191px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: calc(50% - 60px);
+    left: calc(50% - 95.5px);
+}
+
+.projects .content .cards .btn-all-project a{
+    text-decoration: none;
+}
+
+.projects .content .cards .btn-all-project p{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #1A1A18;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.projects .content .cards .btn-all-project img{
+    width: 33px;
+}
+
+.projects .content .cards .item .btn-over{
+    display: none;
+    width: 76px;
+    height: 76px;
+}
+
+.projects .content .cards .item .btn-over img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.item .pic-caption{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	opacity: 0;
+	transition: 1s;
+}
+
+.item .pic-caption .hover-text{
+	width: 416px;
+    background-image: url("../images/hover-img.png");
+    background-repeat: no-repeat;
+	margin: 0 auto;
+}
+
+.item .pic-caption .hover-text h3{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    padding-top: 124px;
+    margin-bottom: 37px;
+}
+
+.item .pic-caption .hover-text .card-description .item-hover .top-text{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.item .pic-caption .hover-text .card-description .item-hover .bottom-text{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding-top: 8px;
+}
+
+.item .pic-caption .hover-text .card-description{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 369px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+
+.item .pic-caption .hover-text .card-description .item-hover{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.item .pic-caption .hover-text .card-description .item-hover:last-child{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.bottom-to-top{
+	transition: 1s;
+}
+
+.item:hover .bottom-to-top{
+	top: 0;
+	left: 0;
+	opacity: 1;
+	transition: 1s;
+	cursor: pointer;
+}
+
+/* Section Four Steps */
+
+.four-steps{
+    padding-bottom: 169px;
+    background-image: url("../images/four-steps-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0 -34px;
+}
+
+.four-steps .content{
+    margin-top: 205px;
+}
+
+.four-steps .content .first-line{
+    width: 928px;
+    margin: 0 auto;
+    margin-bottom: 122px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+}
+
+.four-steps .content .first-line strong{
+    font-weight: bold;
+}
+
+.four-steps .content .content-descr{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 180px;
+    margin-right: 260px;
+}
+
+.four-steps .content .content-descr .block-descr{
+    display: flex;
+    justify-content: space-between;
+    width: 698px;
+}
+.four-steps .content .content-descr .block-descr:nth-child(3){
+    width: 710px;
+}
+
+.four-steps .content .content-descr .block-descr:first-child{
+    margin-bottom: 166px;
+}
+
+.four-steps .content .content-descr .block-descr:nth-child(2){
+    margin-bottom: 166px;
+}
+
+.four-steps .content .content-descr .block-descr .number-step{
+    font-family: 'Marck Script', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 120px;
+    color: #545A2F;
+}
+
+.four-steps .content .content-descr .block-descr .step-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+    margin-left: 35px;
+}
+
+.four-steps .content .content-descr .block-descr .step-descr strong{
+    font-weight: bold;
+}
+
+.four-steps .content .content-descr .block-descr .step-descr:nth-child(3){
+    width: 567px;
+}
+
+/* Section Benefits */
+
+.benefits{
+    padding-top: 77px;
+    background-color: #DDE3E1;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.benefits .first-line{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    text-align: center;
+    color: #1A1A18;
+    margin-bottom: 113px;
+}
+
+.benefits .benefits-content .item-benef{
+    width: 30%;
+}
+
+.benefits .benefits-content .item-benef .item-icon{
+    width: 85px;
+    height: 85px;
+    margin-bottom: 26px;
+    margin-left: 100px;
+}
+
+.benefits .benefits-content .item-benef .item-icon img{
+    max-width: 100%;
+}
+
+.benefits .benefits-content .item-benef .descr{
+    width: 288px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    padding-bottom: 95px;
+    margin-left: 100px;
+}
+
+.benefits .benefits-content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+/* Section Reviews */
+
+.reviews{
+    margin-top: 168px;
+    margin-bottom: 200px;
+    margin-left: 328px;
+    margin-right: 367px; 
+}
+
+.reviews .content .first-line{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 103px;
+}
+
+.reviews .content .content-descr{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*width: 1225px;*/
+    /*margin-left: 328px;*/
+}
+
+.reviews .content .content-descr .item-left{
+    width: 546px;
+    margin-bottom: 103px;
+    margin-right: 106px;
+}
+
+.reviews .content .content-descr .item-left img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.reviews .content .content-descr .item-right{
+    width: 570px;
+}
+
+.reviews .content .content-descr .item-right .full-name{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 47px;
+    color: #545A2F;
+    padding-top: 23px;
+    padding-bottom: 8px;
+}
+
+.reviews .content .content-descr .item-right .work-name{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #545A2F;
+    padding-bottom:34px;
+}
+
+.reviews .content .content-descr .item-right .review{
+    /*width: 570px;*/
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+}
+
+.carousel-indicators button{
+    background-color: #545A2F !important;
+}
+  
+.carousel-indicators .active{
+    background-color: #545A2F !important;
+}
+
+/* Section Questions */
+
+.question{
+    margin-left: 292px;
+    margin-right: 254px;
+    margin-bottom: 146px;
+}
+
+.question .question-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.question .question-content .left-side-content{
+    width: 825px;
+    margin-right: 75px;
+}
+
+.question .question-content .left-side-content .first-line{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    margin-bottom: 58px;
+}
+
+.question .question-content .left-side-content .item-question{
+    width: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.question .question-content .left-side-content .item-question .item-descr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question .question-content .left-side-content .item-question .item-descr .item-quest{
+    width: 662px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: #1A1A18;
+    margin-right: 58px;
+}
+
+.question .question-content .left-side-content hr{
+    width: 100%;
+    height: 1px;
+    background-color: #545A2F;
+    border: 0;
+    margin: 0;
+}
+
+.question .question-content .left-side-content .item-question .answer{
+    width: 692px;
+}
+
+.question .question-content .left-side-content .item-question .answer .item-answer{
+    width: 100%;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    padding-top: 34px;
+}
+
+.question .question-content .left-side-content .item-question .item-descr .item-pic{
+    width: 54px;
+    height: 54px;
+}
+
+.question .question-content .left-side-content .item-question .item-descr .item-pic img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+.question .question-content .right-side-content{
+    width: 474px;
+    background-color: #DDE3E1;
+    box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.06);
+    border-radius: 4px;
+}
+
+.question .question-content .right-side-content .form-descr .first-text{
+    width: 320px;
+    margin: 0 auto;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 47px;
+    text-align: center;
+    color: #1A1A18;
+    padding-top: 33px;
+    padding-bottom: 43px;
+}
+
+.question .question-content .right-side-content .form-descr .second-text{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.question .question-content .right-side-content .form-descr .card-quest{
+    text-align: center;
+}
+
+.question .question-content .right-side-content .form-descr .card-quest img{
+    width: 84%;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .form-manual-quest{
+    margin-top: 15px;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .form-manual-quest input{
+    width: 392px;
+    height: 50px;
+    padding-left: 19px;
+    margin-left: 36px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest{
+    display: block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 44px;
+    margin-left: 36px
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest label .checkmark-quest {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest:hover input ~ .checkmark-quest {
+    background-color: #ccc;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest label .checkmark-quest:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest input:checked ~ .checkmark-quest:after {
+    display: block;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest .checkmark-quest:after {
+    left: 5px;
+    width: 10px;
+    height: 15px;
+    border: solid #545A2F;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest .label-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A18;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest .label-descr span{
+    color: #545A2F;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .form-button-quest input{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #545A2F;
+    padding: 15px 73px;
+    margin-top: 27px;
+    margin-bottom: 42px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .form-button-quest input:hover{
+    color: #545A2F;
+    background-color: #FFFFFF;
+    border: solid 1px #545A2F;
+    cursor: pointer; 
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest .label-descr{
+    width: 254px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A18;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .checkbox-quest .label-descr span{
+    color: #545A2F;
+}
+
+.question .question-content .right-side-content .form-descr .form-quest form .form-button-quest{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1850px){
+    .projects .content .cards .item{
+        width: 49.8%;
+    }
+    .item .pic-caption .hover-text{
+        width: 47%;
+        height: 95%;
+        background-repeat: round;
+    }
+    .item .pic-caption .hover-text .card-description{
+        width: 89%;
+    }
+    .four-steps .content .content-descr .block-descr{
+        width: 48%;
+    }
+    .four-steps .content .content-descr .block-descr:nth-child(3){
+        width: 49%;
+    }
+    .four-steps .content .content-descr .block-descr:first-child{
+        margin-bottom: 150px;
+    }
+    .four-steps .content .content-descr .block-descr:nth-child(2){
+        margin-bottom: 150px;
+    }
+    .question{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .question .question-content .left-side-content{
+        width: 60%;
+    }
+    .question .question-content .right-side-content{
+        width: 35%;
+    }
+    .question .question-content .right-side-content .form-descr .form-quest form .form-manual-quest input{
+        width: 83%;
+    }
+    .question .question-content .left-side-content .item-question .item-descr{
+        width: 100%;
+    }
+    .question .question-content .left-side-content .item-question .answer{
+        width: 100%;
+    }
+    .reviews{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .reviews .content .content-descr{
+        width: 100%;
+    }
+    .reviews .content .content-descr .item-right .full-name{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .reviews .content .content-descr .item-left{
+        width: 45%;
+        margin-right: 8%;
+    }
+    .reviews .content .content-descr .item-right{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width: 1750px){
+    .first-container .first-container-sub .first-container-content h1{
+        width: 72%;
+    }
+    .second-container .second-container-sub .second-container-content .first-part{
+        width: 70%;
+    }
+    .second-container .cards .item{
+        width: 32%;
+    }
+    .center-second{
+        width: 100%;
+    }
+    .third-container{
+        width: 100%;
+    }
+    .third-container .vizual-content .first-part{
+        width: 70%;
+    }
+    .third-container .vizual-content .content-descr .left-side{
+        width:41%;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content{
+        width: 100%;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .cards .item1{
+        width: 89%;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .cards .item2{
+        width: 59%;
+        left: 34%;
+    }
+    .third-container .vizual-content .content-descr .right-side{
+        width: 59%;
+        padding-top: 5%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item{
+        width: 76%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .right-side-descr{
+        width: 87%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:first-child{
+        margin-left: 4%;
+        padding-bottom: 15%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:nth-child(2){
+        margin-left: 9%;
+        padding-bottom: 15%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:last-child{
+        margin-left: 12%;
+    }
+    .fourth-container .works-content{
+        margin-top: 160px;
+
+    }
+    .item .pic-caption .hover-text h3{
+        font-size: 36px;
+        line-height: 40px;
+        padding-top: 115px;
+    }
+    .item .pic-caption .hover-text .card-description .item-hover .top-text{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .item .pic-caption .hover-text .card-description .item-hover .bottom-text{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .four-steps .content .first-line{
+        width: 50%;
+    }
+    .four-steps .content .content-descr .block-descr .step-descr{
+        font-size: 24px;
+        line-height: 30px;
+        margin-left: 3%;
+    }
+    .benefits .benefits-content .item-benef .descr{
+        width: 70%;
+    }
+    .benefits .benefits-content .item-benef .item-icon{
+        margin-left: 22%;
+    }
+    .benefits .benefits-content .item-benef .descr{
+        margin-left: 22%;
+    }  
+}
+
+
+@media screen and (max-width: 1500px){
+    .center{
+        width: 90%;
+    }
+    .first-container .first-container-sub .first-container-content h1{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .first-container .first-container-sub .first-container-content .idea{
+        font-size: 38px;
+        line-height: 54px;
+    }
+    .second-container .second-container-sub .second-container-content .second-part{
+        width: 60%;
+    }
+    .third-container .vizual-content{
+        background-size: 60%;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .item-name{
+        margin-left: 25%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:first-child{
+        padding-bottom: 10%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:nth-child(2){
+        padding-bottom: 10%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .item-icon{
+        margin-right: 5%;
+    }
+    .fourth-container .works-content .works-descr .item{
+        width: 30%;
+    }
+    .fourth-container .works-content .works-descr .item .offers{
+        font-size: 34px;
+        line-height: 46px;
+    }
+    .fourth-container .works-content .works-descr .item ul li{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .item .pic-caption .hover-text h3{
+        padding-top: 95px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .item .pic-caption .hover-text .card-description .item-hover .bottom-text{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .four-steps .content .content-descr{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .question .question-content .left-side-content .first-line{
+        font-size: 50px;
+        line-height: 66px;
+        margin-bottom: 30px;
+    }
+    .benefits{
+        padding-left: 5%;
+        padding-right: 5%;
+    } 
+    .benefits .benefits-content .item-benef{
+        width: 45%;
+    }
+    .benefits .benefits-content .item-benef .descr{
+        padding-bottom: 65px;
+    }
+    .benefits .benefits-content .item-benef .item-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .reviews .content .content-descr .item-right .full-name{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .reviews .content .content-descr .item-right .work-name{
+        padding-bottom: 12px;
+    }   
+}
+
+@media screen and (max-width: 1300px){
+    .first-container .first-container-sub .first-container-content h1{
+        font-size: 58px;
+        line-height: 74px;
+    }
+    .first-container .first-container-sub .first-container-content .idea{
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .second-container{
+        background-size: 22%;
+        background-position-y: 464px;
+    }
+    .second-container .second-container-sub{
+        background-size: 22%;
+        background-position: 100% 492px;
+    }
+    .second-container .second-container-sub .second-container-content .first-part{
+        font-size: 40px;
+        line-height: 52px;
+        padding-top: 160px;
+    }
+    .second-container .second-container-sub .second-container-content .second-part{
+        padding-bottom: 160px;
+    }
+    .third-container .vizual-content .first-part{
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 60px;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:first-child{
+        padding-bottom: 5%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:nth-child(2){
+        padding-bottom: 5%;
+    }
+    .third-container .vizual-content{
+        background-position: 48% 0;
+    }
+    .fourth-container{
+        background-image: none;
+    }
+    .fourth-container .fourth-container-sub{
+        background-image: none;
+    }
+    .fourth-container .works-content{
+        margin-top: 160px;
+    }
+    .fourth-container .works-content .first-line{
+        font-size: 50px;
+        line-height: 66px; 
+    }
+    .fourth-container .works-content .works-descr .item .offers{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .fourth-container .works-content .works-descr .item ul li {
+        padding-bottom: 38px;
+    }
+    .item .pic-caption .hover-text h3{
+        padding-top: 50%;
+    }
+    .item .pic-caption .hover-text .card-description{
+        display: none;
+    }
+    .four-steps .content{
+        margin-top: 160px;
+    }
+    .four-steps .content .first-line{
+        font-size: 50px;
+        line-height: 66px;
+    }
+    .benefits .first-line{
+        font-size: 50px;
+        line-height: 66px; 
+    }
+    .benefits .benefits-content .item-benef .descr{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .question .question-content .left-side-content .first-line{
+        font-size: 50px;
+        line-height: 66px;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 56px;
+    }
+    .question .question-content .right-side-content{
+        display: none;
+    }
+    .question{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 116px;
+    }
+    .question .question-content .left-side-content{
+        width: 100%;
+        margin-right: 0;
+    }
+    .question .question-content .left-side-content .item-question .item-descr{
+        width: 100%;
+    }
+    .question .question-content .left-side-content .item-question .item-descr .item-quest{
+        width: 75%;
+    }
+    .reviews .content .content-descr .item-right .work-name{
+        padding-bottom: 5px;
+    }
+    .reviews .content .content-descr .item-right .review{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .reviews{
+        margin-top: 160px;
+        margin-bottom: 160px;
+    }
+    .reviews .content .first-line{
+        font-size: 50px;
+        line-height: 66px;
+        margin-bottom: 56px;
+    } 
+}
+
+@media screen and (max-width: 1100px){
+    .third-container .vizual-content .content-descr .right-side .item .right-side-descr{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .fourth-container .works-content .works-descr .item ul li{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .four-steps .content .content-descr .block-descr .number-step{
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .four-steps .content .content-descr .block-descr:first-child {
+        margin-bottom: 110px;
+    }
+    .four-steps .content .content-descr .block-descr:nth-child(2) {
+        margin-bottom: 110px;
+    } 
+}
+
+@media screen and (max-width: 1024px){
+    .first-container .first-container-sub .background-brunch{
+        background-size: 50%;
+        background-position: 100% 320px;
+    }
+    .first-container .first-container-sub .last-project img{
+        width: 300px;
+    } 
+    .second-container{
+        background-position-y: 423px;
+    }
+    .second-container .second-container-sub{
+        background-position: 100% 428px;
+    }
+    .second-container .second-container-sub .second-container-content .first-part{
+        padding-top: 110px;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .second-container .second-container-sub .second-container-content .second-part{
+        width: 70%;
+        font-size: 20px;
+        line-height: 26px;
+        padding-bottom: 110px;
+    }
+    .second-container .cards{
+        margin-bottom: 110px;
+    }
+    .third-container .vizual-content{
+        background-size: 60%;
+    }
+    .third-container .vizual-content .first-part{
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:first-child{
+        padding-bottom: 3%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:nth-child(2){
+        padding-bottom: 3%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .right-side-descr{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .item-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .fourth-container .works-content{
+        margin-top: 110px;
+    }
+    .fourth-container .works-content .first-line{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .fourth-container .works-content .works-descr{
+        flex-wrap: wrap;
+    }
+    .fourth-container .works-content .works-descr .item{
+        width: 48%;
+        margin-bottom: 37px;
+    }
+    .fourth-container .works-content .works-descr .item:last-child{
+        margin-bottom: 0;
+    }
+    .fourth-container .works-content .works-descr .item .offers{
+        margin-bottom: 28px;
+        font-size: 38px;
+    }
+    .fourth-container .works-content .works-descr .item ul li{
+        padding-bottom: 32px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .fourth-container .works-content .works-descr .item ul li:last-child{
+        padding-bottom: 0;
+    }
+    .projects .content .cards .btn-all-project{
+        width: 150px;
+        height: 150px;
+        top: calc(50% - 50px);
+        left: calc(50% - 75px);
+    }
+    .projects .content .cards .btn-all-project p{
+        padding-top: 52px;
+    }
+    .projects .content .first-line{
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .item .pic-caption .hover-text h3{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .four-steps{
+        padding-bottom: 110px;
+    }
+    .four-steps .content{
+        margin-top: 110px;
+    }
+    .four-steps .content .first-line{
+        font-size: 42px;
+        line-height: 52px;
+        margin-bottom: 68px;
+        width: 70%;
+    }
+    .four-steps .content .content-descr .block-descr .step-descr{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .four-steps .content .content-descr .block-descr .number-step{
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .benefits .first-line{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .question .question-content .left-side-content .first-line{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .question .question-content .left-side-content .item-question .item-descr .item-quest{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .question .question-content .left-side-content .item-question .answer .item-answer{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .reviews{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+    .reviews .content .first-line{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .reviews .content .content-descr{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .reviews .content .content-descr .item-left{
+        width: 60%;
+        order: 1;
+        margin: 0;
+        margin-bottom: 65px;
+    }
+    .reviews .content .content-descr .item-right{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    .reviews .content .content-descr .item-right .work-name{
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .first-container .first-container-sub .first-container-content h1{
+        font-size: 45px;
+        line-height: 65px;
+    }
+    .first-container .first-container-sub .first-container-content .idea{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .second-container{
+        background-position-y: 495px;
+    }
+    .second-container .second-container-sub{
+        background-position: 100% 494px;
+    }
+    .second-container .second-container-sub .second-container-content .first-part{
+        width: 80%;
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .second-container .second-container-sub .second-container-content .second-part{
+        width: 70%;
+    }
+    .second-container .cards{
+        flex-wrap: wrap;
+        margin-bottom: 110px;
+    }
+    .second-container .cards .item{
+        width: 100%;
+    }
+    .second-container .cards .item:first-child,
+    .second-container .cards .item:nth-child(2){
+        padding-bottom: 10px;
+    }
+    .third-container .vizual-content .first-part{
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 66px;
+    }
+    .third-container .vizual-content{
+        background-size: 58%;
+    }
+    .third-container .vizual-content .content-descr{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content{
+        width: 100%;
+        position: relative;
+    }
+    .third-container .vizual-content .content-descr .right-side{
+        width: 90%;
+        margin: 0 auto;
+        order: -1;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:first-child,
+    .third-container .vizual-content .content-descr .right-side .item:nth-child(2),
+    .third-container .vizual-content .content-descr .right-side .item:last-child{
+        margin-left: 0;
+        padding-bottom: 36px;
+    }
+    .third-container .vizual-content .content-descr .right-side .item:last-child{
+        padding-bottom: 66px;
+    }
+    .third-container .vizual-content .content-descr .right-side .item{
+        width: 100%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .right-side-descr{
+        width: 96%;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .item-icon{
+        margin-right: 19px;
+    }
+    .third-container .vizual-content .content-descr .left-side{
+        width: 100%;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .cards .item1{
+        width: 100%;
+        padding-left: 0;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .cards .item2{
+        width: 85%;
+        left: 15%;
+        top: -30px;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .item-name{
+        position: absolute;
+        top: 75%;
+        left: -100px;
+        transform: rotate(-90deg); 
+        margin-left: 0; 
+        font-size: 28px; 
+    }
+    .fourth-container .works-content .works-descr .item{
+        width: 100%;
+    }
+    .fourth-container .works-content .first-line{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 53px;
+    }
+    .projects .content .cards{
+        flex-wrap: wrap;
+    }
+    .projects .content .cards .item{
+        width: 100%;
+        position: relative;
+    }
+    .projects .content .cards .item:first-child,
+    .projects .content .cards .item:nth-child(2),
+    .projects .content .cards .item:nth-child(3){
+        margin-bottom: 15px;
+    }
+    .projects .content .cards .btn-all-project{
+        display: none;
+    }
+    .projects .content .cards .item .btn-over{
+        display: block;
+    }
+    .projects .content .cards .item .btn-over{
+        position: absolute;
+        top: calc(72% - 37.5px);
+        left: calc(85% - 37.5px);     
+    }
+    .four-steps .content .content-descr .block-descr{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .four-steps .content .content-descr .block-descr:nth-child(3){
+        width: 100%;
+    }
+    .four-steps .content .content-descr .block-descr .step-descr{
+        margin-left: 0;
+    }
+    .four-steps .content .content-descr .block-descr .number-step{
+        margin: 0 auto;
+    }
+    .four-steps .content .content-descr .block-descr:first-child,
+    .four-steps .content .content-descr .block-descr:nth-child(2){
+        margin-bottom: 0;
+    }
+    .four-steps .content .content-descr .block-descr:first-child,
+    .four-steps .content .content-descr .block-descr:nth-child(2),
+    .four-steps .content .content-descr .block-descr:nth-child(3){
+        margin-bottom: 50px;
+    }
+    .benefits{
+        padding-left: 35px;
+        padding-right: 28px;
+    }
+    .benefits .first-line{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .benefits .benefits-content .item-benef{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .benefits .benefits-content .item-benef:last-child{
+        margin-bottom: 40px;
+    }
+    .benefits .benefits-content .item-benef .item-icon{
+        margin: 0;
+        margin-right: 26px;
+    }
+    .benefits .benefits-content .item-benef .descr{
+        width: 100%;
+        margin-left: 0;
+        padding: 0; 
+    }
+    .benefits .first-line{
+        margin-bottom: 68px;
+    }
+    .reviews .content .first-line{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .first-container .first-container-sub .first-container-content h1{
+        font-size: 32px;
+        line-height: 44px;
+    }
+    .first-container .first-container-sub .first-container-content .idea{
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .first-container .first-container-sub .first-container-content .name-studio{
+        font-size: 16px;
+        line-height: 22px; 
+    }
+    
+    .second-container .second-container-sub .second-container-content .first-part{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .second-container .second-container-sub .second-container-content .second-part{
+        width: 80%;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .third-container .vizual-content{
+        background-size: 85%;       
+    }
+    .third-container .vizual-content .first-part{
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .item-name{
+        position: absolute;
+        left: -93px; 
+        font-size: 24px; 
+    }
+    .fourth-container .works-content .first-line{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .fourth-container .works-content .works-descr .item .offers{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .projects .content .first-line{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .four-steps .content .first-line{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .benefits .first-line{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .question .question-content .left-side-content .first-line{
+        font-size: 35px;
+        line-height: 45px;
+        width: 90%;
+    }
+    .reviews .content .first-line{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .reviews .content .content-descr .item-right .full-name{
+        font-size: 30px;
+    }
+    .reviews .content .content-descr .item-right .work-name{
+        font-size: 22px;
+    }
+    .first-container .first-container-sub .last-button a img{
+        width: 184px;
+    }  
+}
+
+@media screen and (max-width: 425px){
+    .first-container .first-container-sub .first-container-content .name-studio{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .first-container .first-container-sub .first-container-content h1{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+    .first-container .first-container-sub .first-container-content .idea{
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 255px;
+    }
+    .first-container .first-container-sub .last-project img{
+        width: 184px;
+    } 
+    .second-container .second-container-sub .second-container-content .first-part{
+        width: 288px;
+    }
+    .second-container .second-container-sub .second-container-content .second-part{
+        width: 288px;
+    }
+    .second-container{
+        background-position: -33px 449px;
+    }
+    .second-container .second-container-sub{
+        background-position: 116% 452px;
+    }
+    .second-container .second-container-sub .second-container-content .first-part{
+        font-size: 24px;
+        line-height: 30px;
+        padding-top: 41px;
+        margin-bottom: 40px;
+    }
+    .second-container .second-container-sub .second-container-content .second-part{
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 107px;
+    }
+    .second-container{
+        background-position-y: 425px;
+        background-size: 30%;
+    }
+    .second-container .second-container-sub{
+        background-position: 100% 428px;
+        background-size: 30%;
+    }
+    .second-container .cards{
+        margin-bottom: 81px;
+    }
+    .third-container .vizual-content{
+        background-size: 88%;       
+    }
+    .third-container .vizual-content .first-part{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .item-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .third-container .vizual-content .content-descr .right-side .item .right-side-descr{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .item-name{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 0;
+        left: -61px;
+        top: 72%;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .cards .item2{
+        top: -16px;
+    }
+    .fourth-container .works-content .first-line{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+    .fourth-container .works-content .works-descr .item .item-icon{
+        width: 60px;
+        height: 60px;
+    }
+    .fourth-container .works-content .works-descr .item .item-icon img{
+        margin-bottom: 8px;
+    }
+    .fourth-container .works-content .works-descr .item .offers{
+        margin-bottom: 22px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .fourth-container .works-content .works-descr .item ul li{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .fourth-container .works-content .works-button .btn-choose{
+        width: 100%;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .projects .content .first-line{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 27px;
+    }
+    .item .pic-caption .hover-text h3{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .fourth-container .btn .btn-choose{
+        width: 100%;
+        padding: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .four-steps .content{
+        margin-top: 96px;
+    }
+    .four-steps{
+        padding-bottom: 88px;
+        background-image: none;
+    }
+    .four-steps .content .first-line{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 22px;
+    }
+    .four-steps .content .content-descr .block-descr .number-step{
+        font-size: 64px;
+        line-height: 80px;
+    }
+    .four-steps .content .content-descr .block-descr .step-descr{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .four-steps .content .content-descr .block-descr:first-child,
+    .four-steps .content .content-descr .block-descr:nth-child(2),
+    .four-steps .content .content-descr .block-descr:nth-child(3){
+        margin-bottom: 22px;
+    }
+    .benefits{
+        padding-top: 40px;
+    }
+    .benefits .first-line{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+    .benefits .benefits-content .item-benefit .item-icon{
+        width: 38px;
+        height: 38px;
+    }
+    .benefits .benefits-content .item .descr{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .benefits .benefits-content .item-benef .descr{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .question .question-content .left-side-content .first-line{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 21px;
+        width: 80%;
+    }
+    .question .question-content .left-side-content .item-question .item-descr .item-quest{
+        font-size: 18px;
+        line-height: 22px;
+        margin-right: 42px;
+    }
+    .question .question-content .left-side-content .item-question{
+        padding-bottom: 26px;
+    }
+    .question .question-content .left-side-content .item-question .answer .item-answer{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .question .question-content .left-side-content .item-question .item-descr .item-pic{
+        width: 38px;
+        height: 38px;
+    }
+    .reviews .content .content-descr .item-left{
+        width: 100%; 
+    }
+    .reviews{
+        margin-top: 88px;
+        margin-bottom: 108px;
+    }
+    .reviews .content .first-line{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    } .reviews .content .content-descr .item-right .full-name{
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 19px;
+    }
+    .reviews .content .content-descr .item-right .work-name{
+        font-size: 16px;
+        line-height: 20px;
+        width: 225px;
+    }
+    .reviews .content .content-descr .item-right img{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .third-container .vizual-content .content-descr .right-side .item .right-side-descr{
+        width: 234px;
+    }
+    .third-container .vizual-content .content-descr .left-side .left-side-content .item-name{
+        top: 74%;
+    }
+    .third-container .vizual-content{
+        background-position: 48% 4px;        
+    }
+}
+
+

@@ -1,0 +1,454 @@
+
+.first-container .first-container-content .descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 36px;
+    padding-bottom: 112px;
+}
+
+/* Section Gallery */
+
+.gallery .gallery-content .name-project h3{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #1A1A18; 
+}
+
+.gallery .gallery-content .name-project .heart{
+    align-self: center;
+    font-size: 50px;
+}
+
+.gallery .gallery-content .name-project{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 130px;
+    position: relative;
+}
+
+.gallery .gallery-content .name-project .heart-info{
+    position: absolute;
+    right: -180px;
+    width: 180px;
+	top: 70px;
+    border: solid 1px #545A2F;
+    opacity: 0;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 5px;
+	color: #545A2F;
+    height: 40px;
+	transition: 0.8s;
+}
+
+.gallery .gallery-content .name-project .heart-info.heart-show{
+    transition: 1s ease-in-out;
+    opacity: 1;
+    right: 0%;
+}
+
+.gallery .gallery-content .name-project .heart.heart-color{
+	color: green; 
+}
+
+.gallery .gallery-content .back-button{
+    display: none;
+}
+.gallery .gallery-content .back-button a{
+    text-decoration: none;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.gallery .gallery-content .back-button a img{
+    padding-right: 12px;
+    vertical-align: middle;
+}
+
+.gallery .gallery-content .gallery-descr{
+    width: 598px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery .gallery-content .gallery-descr .item .first-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1A1A18;
+    padding-bottom: 8px;
+}
+
+.gallery .gallery-content .gallery-descr .item .second-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    padding-bottom: 24px;
+}
+
+.gallery .gallery-content .gallery-cards .item img{
+    max-width: 100%;
+    width: 100%;
+}
+
+.gallery .gallery-content .gallery-cards .item-text{
+    width: 430px;
+    background-color: #E9ECE0;
+    opacity: 0.7;
+}
+
+.gallery .gallery-content .gallery-cards .item-text p{
+    width: 285px;;
+    font-family: "Noah";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #333333;
+    margin: 0 auto;
+    padding-top: 121px;
+    padding-bottom: 116px;
+}
+
+.gallery .gallery-content .gallery-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 23px;
+    grid-row-gap: 23px;
+}
+
+.gallery .gallery-content .gallery-cards .item:first-child{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.gallery .gallery-content .gallery-cards .item:nth-child(2){
+    grid-column: 2/4;
+    grid-row: 1;
+}
+
+.gallery .gallery-content .gallery-cards .item:nth-child(3){
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.gallery .gallery-content .gallery-cards .item-text{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.gallery .gallery-content .gallery-cards .item:last-child{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.gallery .gallery-content .gallery-button{
+    margin-top: 41px;
+    text-align: center;
+}
+
+.gallery .gallery-content .gallery-button a{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    background-color: #545A2F;
+    transition: 0.5s;
+}
+.gallery .gallery-content .gallery-button a:hover{
+    color: #545A2F;
+    background-color: #FFFFFF;
+    border: solid 1px #545A2F;
+    cursor: pointer;
+}
+
+/* Section Gallery 2 */
+
+.gallery .gallery-content .gallery-cards .item-second:nth-child(3){
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.gallery .gallery-content .gallery-cards .item-text-second{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+/* Section Gallery 3 */
+
+.gallery .gallery-content .gallery-cards .item-third:nth-child(3){
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.gallery .gallery-content .gallery-cards .item-text-third{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.gallery .gallery-content .gallery-cards .item-third:first-child{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* Gallery swiper*/
+
+.gallery .gallery-content .mySwiper{
+    display: none;
+}
+
+
+@media screen and (max-width: 1500px){
+    .center{
+        width: 90%;
+    }
+    .gallery .gallery-content .gallery-cards{
+        width: 100%;
+    }
+    .gallery .gallery-content .gallery-cards .item-text{
+        width: 100%; 
+    }
+    .gallery .gallery-content .gallery-cards .item{
+        width: 100%; 
+    }
+    .gallery .gallery-content .gallery-cards .item-text p{
+        width: 67%;
+        padding-top: 25%;
+        padding-bottom: 30%;
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 1300px){
+    .first-container .first-container-content .title{
+        font-size: 64px;
+        line-height: 78px;
+    }
+    .gallery .gallery-content .gallery-cards .item-text p{
+        width: 85%;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .first-container .first-container-content .title{
+        font-size: 58px;
+        line-height: 70px;
+    }
+    .gallery .gallery-content .name-project{
+        margin-top: 110px;  
+    }
+    .gallery .gallery-content .name-project h3{
+        font-size: 52px;
+        line-height: 60px;
+    }
+    .gallery .gallery-content .gallery-descr{
+        width: 70%;
+    }
+    .gallery .gallery-content .gallery-cards{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+    }
+    .gallery .gallery-content .gallery-cards .item:nth-child(3){
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .gallery .gallery-content .gallery-cards .item:nth-child(2){
+        grid-column: 1/3;
+        grid-row: 2; 
+    }
+    .gallery .gallery-content .gallery-cards .item-text{
+        grid-column: 1;
+        grid-row: 3; 
+    }
+    .gallery .gallery-content .gallery-cards .item:last-child{
+        grid-column: 2;
+        grid-row: 3; 
+    }
+    .gallery .gallery-content .gallery-cards .item-text-third{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .gallery .gallery-content .gallery-cards .item-third:first-child{
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .center{
+        width: 100%;
+    }
+    .first-container .first-container-content .title{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .first-container .first-container-content .descr{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .gallery .gallery-content h3{
+        font-size: 40px;
+        line-height: 50px;
+        margin-left: 5%;  
+    }
+    .gallery .gallery-content .gallery-descr .item .second-descr{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .gallery .gallery-content .gallery-cards{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .gallery .gallery-content .gallery-cards .item:first-child{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    .gallery .gallery-content .gallery-cards .item:nth-child(2){
+        display: none;
+    }
+    .gallery .gallery-content .gallery-cards .item:nth-child(3){
+        display: none;
+    }
+    .gallery .gallery-content .gallery-cards .item-text{
+        display: none;
+    }
+    .gallery .gallery-content .gallery-cards .item:last-child{
+        display: none;
+    }
+    .gallery .gallery-content .gallery-descr{
+        flex-wrap: wrap;
+        width: 60%;
+        margin-left: 5%;
+    }
+    .gallery .gallery-content .gallery-descr .item{
+        width: 50%;
+    }
+    .gallery .gallery-content .gallery-descr .item:last-child{
+        width: 100%;
+    }
+    .gallery .gallery-content .gallery-descr .item:nth-child(2){
+        text-align: right;
+    }
+    .gallery .gallery-content .gallery-cards{
+        display: none;
+    }
+    .gallery .gallery-content .mySwiper{
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .first-container .first-container-content .title{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .gallery .gallery-content .name-project .heart-info{
+        position: absolute;
+        right: -150px;
+        width: 150px;
+        top: -50px;
+        font-size: 12px;
+        height: 30px;
+    }
+    
+    .gallery .gallery-content .name-project .heart-info.heart-show{
+        transition: 1s ease-in-out;
+        opacity: 1;
+        right: 0;
+    }
+    .gallery .gallery-content .name-project{
+        margin-top: 70px;
+    }
+    .gallery .gallery-content .name-project h3{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .gallery .gallery-content .gallery-descr{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .gallery .gallery-content .gallery-descr .item .first-descr{
+        padding-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .first-container .first-container-content .title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .first-container .first-container-content .descr{
+        padding-top: 12px;
+        padding-bottom: 90px;
+    }
+    .first-container .first-container-content .descr{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .gallery .gallery-content .name-project{
+        margin-top: 88px;
+        margin-bottom: 24px;
+    }
+    .gallery .gallery-content .name-project h3{
+        font-size: 24px;
+        line-height: 30px; 
+    }
+    .gallery .gallery-content .gallery-descr .item .first-descr{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .gallery .gallery-content .gallery-descr .item .second-descr{
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 29px;
+    }
+    .gallery .gallery-content .gallery-button a{
+        width: 100%;
+        padding: 15px 0;
+    }
+    .gallery .gallery-content .gallery-button{
+        margin-top: 32px;
+    }
+    .gallery .gallery-content .back-button{
+        display: inline-block;
+        margin-top: 13px;
+        margin-left: 16px;
+    }
+    .form-container .form-portfolio{
+        margin-bottom: 0;
+    }
+    .footer-portfollio{
+        margin-top: 65px;
+    }
+}
+

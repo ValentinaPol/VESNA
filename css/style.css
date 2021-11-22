@@ -1,0 +1,868 @@
+/*RESET.CSS*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Fonts*/
+
+@font-face {
+    font-family: "Noah";
+    font-weight: normal;
+    src: url("../fonts/Noahregular.woff") format("woff");  
+  }
+
+  @font-face {
+    font-family: "Noah";
+    font-weight: bold;
+    src: url("../fonts/Noahbold.woff") format("woff");  
+  } 
+  
+  @font-face {
+    font-family: "Noah";
+    font-style: italic;
+    font-weight: normal;
+    src: url("../fonts/Noahitalic.woff") format("woff");  
+  }
+  @font-face {
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Geometria-Regular.woff") format("woff");  
+  } 
+  @font-face {
+    font-family: "Geometria";
+    font-weight: 500;
+    src: url("../fonts/Geometria-Medium.woff") format("woff");  
+  } 
+  @font-face {
+    font-family: "Geometria";
+    font-weight: 300;
+    src: url("../fonts/Geometria-Light.woff") format("woff");  
+  } 
+
+body{
+    font-family: "Noah", "Arial", sans-serif;
+    font-family: "Geometria", "Arial", sans-serif;
+    background-color: #FFFFFF;
+}
+
+.wrapper{
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center{ /*margin-left: 292*/
+    max-width: 1336px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.center-second{ /*margin-left: 65*/
+    max-width: 1790px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Section 1*/
+
+/*Header*/
+
+.first-container header{
+    max-width: 1720px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-container header .logo{
+    padding-top: 49px;
+}
+
+.first-container header .header-links{
+    display: flex;
+    justify-content: space-between;
+    width: 1018px;
+}
+
+.first-container header .header-links nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 92px;
+}
+
+.first-container header .header-links nav ul li{
+    margin-right: 76px;
+}
+
+.first-container header .header-links nav ul li:nth-child(4){
+    margin-right: 0px;
+}
+
+.first-container header .header-links nav ul li a{
+    text-decoration: none;
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;  
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.first-container header .header-links nav ul li a:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.first-container header .header-links .tel{
+    width: 240px;
+    text-align: center;
+    margin-top: 51px;
+}
+
+.first-container header .header-links .tel a{
+    display: inline-block;
+    background-color: #fff;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    padding: 15px 28px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.first-container header .header-links .tel a:hover{
+    background-color: #545A2F;;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.first-container header .header-links .tel .tel-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 14px;
+}
+
+.first-container header .burger-menu{
+    display: none;
+}
+
+header #close{
+    display: none;
+}
+
+/* First Container Content */
+
+.first-container{
+    background: url("../images/first-bg.png"); 
+    /*height: 501px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-container .first-container-content .title{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 87px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+
+/* Section Gallery */
+
+
+/* Section Form*/
+
+.form-container .form-container-sub{
+    background-image: url("../images/form-fon.png");
+    background-repeat: no-repeat;
+    background-position-y: 163px;
+}
+
+.form-container .form-content{
+    display: flex;
+    margin-top: 278px;
+    margin-bottom: 200px;
+}
+
+.form-container .form-content .left-descr{
+    width: 50%;
+}
+
+.form-container .form-content .left-descr .left-card{
+    width: 760px;
+    height: auto;
+    margin-left: 64px;
+}
+
+.form-container .form-content .left-descr .left-card img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.form-container .form-content .right-descr{
+    width: 50%;
+}
+.form-container .form-content .right-descr .first-line{
+    width: 559px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    line-height: 72px;
+    color: #1A1A18;
+    margin-bottom: 60px;
+}
+.form-container .form-content .right-descr form .form-manual{
+    padding-bottom: 13px;
+}
+
+.form-container .form-content .right-descr form .form-manual label{
+    display: block;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1A1A18;
+    padding-bottom: 5px; /* 20px-20px (height br 20px)*/
+}
+
+.form-container .form-content .right-descr form .form-manual input{
+    width: 638px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: none;
+	padding: 0;
+	padding-left: 33px;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+}
+
+.form-container .form-content .right-descr form .form-manual input::-webkit-input-placeholder{
+	font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+}
+
+.form-container .form-content .right-descr form .form-manual input::-moz-placeholder{
+    font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+}   
+
+/* Firefox 19+ */
+.form-container .form-content .right-descr form .form-manual input:-moz-placeholder{
+	font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+} 
+
+/* Firefox 18- */
+.form-container .form-content .right-descr form .form-manual input:-ms-input-placeholder{
+	font-family: 'Noah', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #63533E;
+} 
+
+.form-container .form-content .right-descr form .form-checkbox-container{
+    display: block;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding-left: 44px;
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container label .checkmark {
+    position: absolute;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container label .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container .checkmark:after {
+    left: 5px;
+    width: 10px;
+    height: 15px;
+    border: solid #545A2F;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container .label-descr{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A1A18;
+}
+
+.form-container .form-content .right-descr form .form-checkbox-container .label-descr span{
+    color: #545A2F;
+}
+
+.form-container .form-content .right-descr form .form-btn{
+    margin-top: 25px;
+    padding-bottom: 63px;
+}
+
+.form-container .form-content .right-descr form .form-btn input{
+    display: inline-block;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 15px 64px;
+    background-color: #545A2F;
+    border: 0;
+    transition: 0.5s;
+}
+
+.form-container .form-content .right-descr form .form-btn input:hover{
+    color: #545A2F;
+    background-color: #FFFFFF;
+    border: solid 1px #545A2F;
+    cursor: pointer; 
+}
+
+.form-container .form-content .right-descr form .form-manual .form-card{
+    display: none;
+}
+
+/* Footer */
+
+footer{
+    background-color: #545A2F;
+}
+
+footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+}
+
+footer .footer-content .contacts .phone-number{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 61px;
+    padding-bottom: 22px;
+}
+
+footer .footer-content .contacts .site{
+    font-family: "Geometria";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+}
+
+footer .footer-content .contacts .copy{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding-bottom: 20px;
+}
+
+footer .footer-content .contacts .copy span{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+footer .footer-content .footer-logo{
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+footer .footer-content .footer-logo .logo-item{
+    margin: 0 auto;
+    width: 172px;
+    height: 182px;
+} 
+
+footer .footer-content .footer-logo .logo-item img{
+    width: 100%;
+}
+
+footer .footer-content .info{
+    padding-top: 38px;
+    text-align: right;
+}
+footer .footer-content .info .info-bottom .info-bottom-descr{
+    display: none;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+footer .footer-content .info .info-bottom .info-bottom-descr span{
+    display: none;
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+footer .footer-content .info .right-side{
+    font-family: "Noah";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding-top: 98px;
+    padding-bottom: 22px;
+}
+
+footer .footer-content .footer-button{
+    display: none;
+}
+
+footer .footer-content .footer-button .footer-button-descr{
+    width: 124px;
+    height: 124px;
+}
+footer .footer-content .footer-button .footer-button-descr img{
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1750px){
+    .first-container header{
+        width: 90%;
+    }
+    .form-container .form-content .left-descr .left-card{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .first-container header .header-links .tel{
+        display: none;
+    }
+    .first-container header .header-links{
+        justify-content: end;
+    }
+    .first-container .first-container-content .title{
+        font-size: 64px;
+        line-height: 78px;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .form-container{
+        width: 100%;
+         margin: 0 auto;
+    }
+    .form-container .form-content .right-descr .first-line{
+        font-size: 50px;
+        line-height: 66px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 25px;
+    }
+    .form-container .form-content{
+        flex-wrap: wrap;
+        margin-top: 160px;
+        margin-bottom: 160px;
+    }
+    .form-container .form-container-sub{
+        background-image: none;
+    }
+    .form-container .form-content .left-descr{
+        display: none;
+    }
+    .form-container .form-content .right-descr{
+        width: 100%;
+    }
+    .form-container .form-content .right-descr form{
+        background-color: rgba(153, 161, 142, 0.3);
+    }
+    .form-container .form-content .right-descr form .form-manual .form-card{
+        display: block;
+        text-align: center;
+    }
+    .form-container .form-content .right-descr form .form-manual .form-card img{
+        width: 80%;
+    }
+    .form-container .form-content .right-descr form .form-manual label{
+        text-align: center;
+        padding-top: 26px;
+        padding-bottom: 18px;
+    }
+    .form-container .form-content .right-descr form .form-btn{
+        text-align: center;
+        margin-top: 29px;
+        padding-bottom: 26px;
+    }
+    .form-container .form-content .right-descr form .form-manual {
+        padding: 0 calc(25% - 70px) 13px
+    }
+    
+    .form-container .form-content .right-descr form .form-manual input{
+        margin-top: 26px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .form-container .form-content form .form-checkbox-container {
+        margin-left: calc(25% - 70px);
+        margin-right: calc(25% - 70px);
+    }
+    .form-container .form-content form .form-checkbox-container .label-descr{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .first-container header .burger-menu{
+        display: inline-block;
+        padding-top: 100px;
+    }
+    .first-container header .burger-menu{
+        width: 36px;
+        height: 27px;
+    }
+    .first-container header .burger-menu img{
+        width: 100%;
+    }
+    .first-container header .header-links{
+        width: 53%;
+    }
+    .first-container header .header-links nav ul{
+        min-height: 100vh;
+        background: rgba(0,0,0,0.8);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: -280px;
+        width: 280px;
+        color: #fff;
+        z-index: 1;
+        padding-top: 130px;
+        transition: 1s;
+    }
+    .first-container header .header-links nav ul li{
+        margin: 0;
+        padding-bottom: 20px;
+    }
+    .first-container header .header-links nav ul.show{
+        
+        transition: 1s ease-in-out;
+        opacity: 1;
+        left: 0%;
+    }
+    .first-container header .header-links nav ul #close{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 17px;
+        font-size: 30px;
+        color: #fff;
+        z-index: 1;
+        transition: 1s;
+    }
+    .first-container .first-container-content .title{
+        font-size: 58px;
+        line-height: 70px;
+    }
+    .form-container .form-content .right-descr .first-line{
+        font-size: 42px;
+        line-height: 52px;
+    }
+    .form-container .form-content{
+        margin-top: 110px;
+        margin-bottom: 110px;
+    }
+    footer .footer-content{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .first-container .first-container-content .title{
+        font-size: 50px;
+        line-height: 65px;
+    }
+    .form-container .form-content .right-descr .first-line{
+        width: 80%;
+        font-size: 40px;
+        line-height: 50px;
+    }
+    footer .footer-content{
+        flex-wrap: wrap;
+        position: relative;
+    }
+    footer .footer-content .contacts{
+        width: 100%;
+        text-align: center;  
+    }
+    footer .footer-content .footer-logo{
+        width: 100%;
+        order: -1;
+        text-align: center;
+        padding-top: 37px;
+        padding-bottom: 39px;
+    }
+    footer .footer-content .info{
+        width: 100%;
+        text-align: center;
+        padding-top: 0;
+    }
+    footer .footer-content .contacts .phone-number{
+        padding-top: 0;
+        padding-bottom: 11px;
+    }
+    footer .footer-content .contacts .site{
+        padding-bottom: 32px;
+    }
+    footer .footer-content .info .right-side{
+        text-align: left;
+        padding-top: 53px;
+        padding-bottom: 8px;
+    }
+    footer .footer-content .info .info-bottom .info-bottom-descr{
+        display: inline-block;
+        margin-bottom: 27px;
+    }
+    footer .footer-content .info .info-bottom{
+        text-align: left;
+    }
+    footer .footer-content .contacts .copy{
+        display: none;
+    }
+    footer .footer-content .footer-button{
+        display: inline-block;
+        position: absolute;
+        top: 70%;
+        left: 75%;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    .first-container header .logo{
+        width: 107px;
+        height: 56px;
+        padding-top: 16px;
+    }
+    .first-container header .logo img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .first-container header .burger-menu{
+        padding-top: 41px;
+        width: 24px;
+        height: 18px;
+    }
+    .first-container .first-container-content .title{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .form-container .form-content .right-descr .first-line{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    footer .footer-content .footer-button{
+        left: 68%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .first-container .first-container-content .title{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .form-container .form-content{
+        margin-top: 138px;
+    }
+    .form-container .form-content .right-descr .first-line{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 28px;
+        width: 231px;
+    }
+    .form-container .form-content .right-descr form .form-manual label{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .form-container .form-content .right-descr form .form-manual input{
+        font-size: 18px;
+        line-height: 22px;
+        padding-left: 14px;
+    }
+    .form-container .form-content form .form-btn input{
+        width: 100%;
+    }
+    .form-container .form-content .right-descr form .form-checkbox-container .label-descr{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    
+    footer .footer-content .footer-logo .logo-item{
+        width: 115px;
+        height: 121px;
+    } 
+    footer .footer-content .footer-button .footer-button-descr{
+        width: 95px;
+        height: 95px;
+    }
+    footer .footer-content .footer-button{
+        left: 69%;
+        top: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
