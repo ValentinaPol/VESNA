@@ -445,6 +445,21 @@ footer .footer-content{
     margin: 0 auto;
 }
 
+footer .custom-breadcrumb{
+    padding-top: 20px;
+    padding-left: 100px;
+    font-size: 22px;
+    max-width: 100%;
+}
+
+footer .custom-breadcrumb .breadcrumb .breadcrumb-item a{
+    color: #fff;
+}
+
+.breadcrumb-item.active {
+    color: #999393;
+}
+
 footer .footer-content .contacts .phone-number{
     font-family: "Geometria";
     font-style: normal;
@@ -709,6 +724,9 @@ footer .footer-content .footer-button .footer-button-descr img{
         padding-left: 5%;
         padding-right: 5%;
     }
+    footer .custom-breadcrumb{
+        padding-left: 5%;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -798,6 +816,10 @@ footer .footer-content .footer-button .footer-button-descr img{
     footer .footer-content .footer-button{
         left: 68%;
     }
+    footer .custom-breadcrumb{
+        padding-left: 50px;
+        font-size: 20px;
+    }
 }
 
 @media screen and (max-width: 425px){
@@ -842,6 +864,10 @@ footer .footer-content .footer-button .footer-button-descr img{
     footer .footer-content .footer-button{
         left: 69%;
         top: 70%;
+    }
+    footer .custom-breadcrumb{
+        padding-left: 5%;
+        font-size: 18px;
     }
 }
 
