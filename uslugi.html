@@ -12,10 +12,18 @@
 </head>
 <body>
     <div class="wrapper">
+        <!-- Button To Top -->
+
+        <div id="scrollToTop" class="button-to-top">
+            <img src="./images/footer-button.png" alt="item-button">
+        </div>
+
+        <!-- Section 1 -->
+
         <section class="first-container">
             <header>
                 <div class="logo">
-                    <img src="images/logo.svg" alt="logo">
+                    <a href="./index.html" title="Начало главной страницы"><img src="images/logo.svg" alt="logo"></a>
                 </div>
                 <div class="header-links">
                     <nav>
@@ -37,8 +45,8 @@
                 <span class="burger-menu">
                     <img src="./images/burger.svg" alt="burger">
                 </span>
-
             </header>
+
             <div class="first-container-content">
                 <h1 class="title">Услуги</h1>
                 <div class="uslugi-button">
@@ -68,7 +76,6 @@
 
             <!--  -->
 
-        
             <div class="uslugi-block uslugi-block-wrap">
                 <div class="left-content">
                     <h3>Lorem ipsum</h3>
@@ -137,7 +144,7 @@
                         <a href="mailto:info@vesna.ru">info@vesna.ru</a>
                     </div>
                     <div class="insta-icon">
-                        <img src="./images/contacts-icon.svg" alt="icon-insta">
+                        <a href="https://ru-ru.facebook.com/instagram/" title="Ссылка на instagram" target=_blank><img src="./images/contacts-icon.svg" alt="icon-insta"></a>
                     </div>
                 </div>
                 <div class="content-right">
@@ -168,9 +175,7 @@
                                 <input type="submit" value="Отправить">
                             </div>
                         </form>  
-
                     </div>
-
                 </div>
             </div>
         </section>
@@ -187,23 +192,34 @@
             </nav>
             <div class="footer-content">
                 <div class="contacts">
-                    <p class="phone-number">+7(921) 888 88 88</p>
-                    <p class="site">info@vesna.ru</p>
+                    <div class="phone-number">
+                        <a href="tel:+7 (921) 888 88 88">+7 (921) 888 88 88</a>
+                    </div>
+                    <div class="footer-mail">
+                        <a href="mailto:info@vesna.ru">info@vesna.ru</a>
+                    </div>
                     <p class="copy"><span>&copy;</span> 2021 VESNA</p>
                 </div>
 
                 <div class="footer-logo">
-                    <img src="images/footer-logo.svg" alt="footer-logo">
+                    <div class="logo-item">
+                        <a href="./index.html" title="Начало главной страницы"><img src="images/footer-logo.svg" alt="footer-logo"></a>
+                    </div>
                 </div>
 
                 <div class="info">
-                    <img src="images/icon-insta.svg" alt="icon-insta">
+                    <a href="https://ru-ru.facebook.com/instagram/" title="Ссылка на instagram" target=_blank><img src="images/icon-insta.svg" alt="icon-insta"></a>
                     <p class="right-side">Политика конфиденциальности</p>
+                    <div class="info-bottom">
+                        <p class="info-bottom-descr"><span>&copy;</span> 2021 VESNA</p>
+                    </div>
                 </div>
             </div>
         </footer>
+    </div>
 
-        <script src="js/script.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
    
 </body>
 </html>

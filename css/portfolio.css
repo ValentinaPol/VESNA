@@ -119,7 +119,7 @@
 }
 
 .gallery .gallery-content .gallery-cards .item-text p{
-    width: 285px;;
+    width: 298px;;
     font-family: "Noah";
     font-style: italic;
     font-weight: normal;
@@ -240,8 +240,8 @@
         width: 100%; 
     }
     .gallery .gallery-content .gallery-cards .item-text p{
-        width: 67%;
-        padding-top: 25%;
+        width: 70%;
+        padding-top: 26%;
         padding-bottom: 30%;
         font-size: 20px;
         line-height: 26px;
@@ -253,9 +253,8 @@
         line-height: 78px;
     }
     .gallery .gallery-content .gallery-cards .item-text p{
-        width: 85%;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 20px;
     }
 }
 
@@ -423,7 +422,7 @@
         line-height: 22px;
     }
     .gallery .gallery-content .name-project{
-        margin-top: 88px;
+        margin-top: 60px;
         margin-bottom: 24px;
     }
     .gallery .gallery-content .name-project h3{

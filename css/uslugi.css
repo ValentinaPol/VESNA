@@ -525,7 +525,7 @@
         padding-bottom: 15px;
     }
     .uslugi-content .uslugi-block{
-        margin-top: 99px;
+        margin-top: 60px;
         margin-bottom: 36px;
     }
     
@@ -539,14 +539,14 @@
         margin-bottom: 0;
     }
     .uslugi-content .uslugi-block .right-content .mobile-button a{
-        width: 95%;
+        width: 90%;
         padding: 0;
         padding-top: 15px;
         padding-bottom: 15px;
     }
     
     .uslugi-content .uslugi-block-wrap .right-content .mobile-button a{
-        width: 95%;
+        width: 90%;
         padding: 0;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -554,7 +554,7 @@
     
     .contacts .contacts-content{
         width: 95%;
-        margin-bottom: 93px;
+        margin-bottom: 60px;
     }
     .contacts .contacts-content .content-right .title-right{
         font-size: 24px;

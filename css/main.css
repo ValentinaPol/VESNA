@@ -113,7 +113,12 @@
 }
 
 .second-container .cards .item{
-    width: 579px; 
+    width: 579px;
+    transition: 0.5s;
+}
+
+.second-container .cards .item:hover{
+    opacity: 0.7;
 }
 
 .second-container .cards .item img{
@@ -1822,7 +1827,7 @@
         background-size: 30%;
     }
     .second-container .cards{
-        margin-bottom: 81px;
+        margin-bottom: 60px;
     }
     .third-container .vizual-content{
         background-size: 88%;       
@@ -1830,6 +1835,8 @@
     .third-container .vizual-content .first-part{
         font-size: 24px;
         line-height: 30px;
+        width: 80%;
+        margin-bottom: 40px;
     }
     .third-container .vizual-content .content-descr .right-side .item .item-icon{
         width: 35px;
@@ -1848,6 +1855,9 @@
     }
     .third-container .vizual-content .content-descr .left-side .left-side-content .cards .item2{
         top: -16px;
+    }
+    .fourth-container .works-content{
+        margin-top: 60px;
     }
     .fourth-container .works-content .first-line{
         font-size: 24px;
@@ -1892,10 +1902,10 @@
         padding-bottom: 15px;
     }
     .four-steps .content{
-        margin-top: 96px;
+        margin-top: 60px;
     }
     .four-steps{
-        padding-bottom: 88px;
+        padding-bottom: 60px;
         background-image: none;
     }
     .four-steps .content .first-line{
@@ -1937,6 +1947,9 @@
         font-size: 16px;
         line-height: 20px;
     }
+    .question{
+        margin-bottom: 60px;
+    }
     .question .question-content .left-side-content .first-line{
         font-size: 24px;
         line-height: 30px;
@@ -1963,8 +1976,8 @@
         width: 100%; 
     }
     .reviews{
-        margin-top: 88px;
-        margin-bottom: 108px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     .reviews .content .first-line{
         font-size: 24px;

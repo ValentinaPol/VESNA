@@ -62,7 +62,7 @@ table {
     font-family: "Noah";
     font-style: italic;
     font-weight: normal;
-    src: url("../fonts/Noahitalic.woff") format("woff");  
+    src: url("../fonts/Noahregularitalic.woff") format("woff");  
   }
   @font-face {
     font-family: "Geometria";
@@ -103,6 +103,17 @@ body{
     max-width: 1790px;
     width: 100%;
     margin: 0 auto;
+}
+
+/* Button To Top*/
+
+.button-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
 }
 
 /*Section 1*/
@@ -461,6 +472,12 @@ footer .custom-breadcrumb .breadcrumb .breadcrumb-item a{
 }
 
 footer .footer-content .contacts .phone-number{
+    padding-top: 61px;
+    padding-bottom: 22px;
+}
+
+footer .footer-content .contacts .phone-number a{
+    text-decoration: none;
     font-family: "Geometria";
     font-style: normal;
     font-weight: normal;
@@ -473,7 +490,12 @@ footer .footer-content .contacts .phone-number{
     padding-bottom: 22px;
 }
 
-footer .footer-content .contacts .site{
+footer .footer-content .contacts .footer-mail{
+    padding-bottom: 48px;
+}
+
+footer .footer-content .contacts .footer-mail a{
+    text-decoration: none;
     font-family: "Geometria";
     font-style: normal;
     font-weight: normal;
@@ -558,20 +580,12 @@ footer .footer-content .info .right-side{
     padding-bottom: 22px;
 }
 
-footer .footer-content .footer-button{
-    display: none;
-}
-
-footer .footer-content .footer-button .footer-button-descr{
-    width: 124px;
-    height: 124px;
-}
-footer .footer-content .footer-button .footer-button-descr img{
-    width: 100%;
-}
-
 
 @media screen and (max-width: 1750px){
+    .show {
+        opacity: 1;
+        visibility: visible;
+    }
     .first-container header{
         width: 90%;
     }
@@ -763,7 +777,7 @@ footer .footer-content .footer-button .footer-button-descr img{
         padding-top: 0;
         padding-bottom: 11px;
     }
-    footer .footer-content .contacts .site{
+    footer .footer-content .contacts .footer-mail{
         padding-bottom: 32px;
     }
     footer .footer-content .info .right-side{
@@ -780,12 +794,6 @@ footer .footer-content .footer-button .footer-button-descr img{
     }
     footer .footer-content .contacts .copy{
         display: none;
-    }
-    footer .footer-content .footer-button{
-        display: inline-block;
-        position: absolute;
-        top: 70%;
-        left: 75%;
     }
 
 }
@@ -813,9 +821,6 @@ footer .footer-content .footer-button .footer-button-descr img{
         font-size: 35px;
         line-height: 45px;
     }
-    footer .footer-content .footer-button{
-        left: 68%;
-    }
     footer .custom-breadcrumb{
         padding-left: 50px;
         font-size: 20px;
@@ -823,12 +828,17 @@ footer .footer-content .footer-button .footer-button-descr img{
 }
 
 @media screen and (max-width: 425px){
+    .button-to-top img{
+        width: 95px;
+        height: 95px;
+    }
     .first-container .first-container-content .title{
         font-size: 24px;
         line-height: 30px;
     }
     .form-container .form-content{
-        margin-top: 138px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
     .form-container .form-content .right-descr .first-line{
         font-size: 24px;
@@ -857,14 +867,7 @@ footer .footer-content .footer-button .footer-button-descr img{
         width: 115px;
         height: 121px;
     } 
-    footer .footer-content .footer-button .footer-button-descr{
-        width: 95px;
-        height: 95px;
-    }
-    footer .footer-content .footer-button{
-        left: 69%;
-        top: 70%;
-    }
+    
     footer .custom-breadcrumb{
         padding-left: 5%;
         font-size: 18px;
