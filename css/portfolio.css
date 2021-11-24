@@ -370,6 +370,9 @@
     .gallery .gallery-content .mySwiper{
         display: block;
     }
+    .gallery .gallery-content .name-project .heart-info.heart-show{
+        right: 2%;
+    }
     
 }
 
@@ -390,7 +393,7 @@
     .gallery .gallery-content .name-project .heart-info.heart-show{
         transition: 1s ease-in-out;
         opacity: 1;
-        right: 0;
+        right: 5%;
     }
     .gallery .gallery-content .name-project{
         margin-top: 70px;
