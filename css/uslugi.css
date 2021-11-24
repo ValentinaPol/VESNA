@@ -498,6 +498,7 @@
         line-height: 50px;
         width: 90%;
         margin-bottom: 53px;
+        text-align: center;
     }
 
 }
@@ -563,7 +564,6 @@
         font-size: 24px;
         line-height: 30px;
         margin-bottom: 40px;
-        text-align: center;
         width: 100%;
     }
     .contacts .contacts-content .content-right .form-email .form-name input,
